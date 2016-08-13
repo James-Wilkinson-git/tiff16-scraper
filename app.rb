@@ -3,24 +3,19 @@ require 'open-uri'
 require 'json'
 
 urls_file = 'urls.json'
+urls = Array.new
+urlsDOM = Nokogiri::HTML(open('http://tiff.net/?filter=festival'), nil, 'utf-8')
+tiff_urls = urlsDOM.css("#calendar .container .row .card .card-title")
 
-if File.file?(urls_file)
-  urls = JSON.parse(File.read(urls_file))
-else
-  urls = Array.new
-  urlsDOM = Nokogiri::HTML(open('http://tiff.net/?filter=festival'), nil, 'utf-8')
-  tiff_urls = urlsDOM.css("#calendar .container .row .card .card-title")
-
-  tiff_urls.each do |url|
-    # don't strip spaces in urls, gsub them with url encoded %20 instead
-    href = url['href'].gsub(' ', '%20')
-    if href.match(/^films/)
-      urls.push("http://tiff.net/#{href}")
-    end
+tiff_urls.each do |url|
+  # don't strip spaces in urls, gsub them with url encoded %20 instead
+  href = url['href'].gsub(' ', '%20')
+  if href.match(/^films/)
+    urls.push("http://tiff.net/#{href}")
   end
-  File.open("urls.json", "w") do |f|
-    f.write(JSON.pretty_generate(urls))
-  end
+end
+File.open("urls.json", "w") do |f|
+  f.write(JSON.pretty_generate(urls))
 end
 
 films = Array.new
