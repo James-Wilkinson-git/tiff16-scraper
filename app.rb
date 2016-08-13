@@ -5,7 +5,7 @@ require 'json'
 urls_file = 'urls.json'
 urls = Array.new
 urlsDOM = Nokogiri::HTML(open('http://tiff.net/?filter=festival'), nil, 'utf-8')
-tiff_urls = urlsDOM.css("#calendar .container .row .card .card-title")
+tiff_urls = urlsDOM.css("#calendar .container .row .card.festival .card-title")
 
 tiff_urls.each do |url|
   # don't strip spaces in urls, gsub them with url encoded %20 instead
