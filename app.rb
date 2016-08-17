@@ -39,6 +39,8 @@ for url in urls do
   film["score"] = tiffDOM.css("#originalScore .credit-content").text || ""
   film["sound"] = tiffDOM.css("#sound .credit-content").text || ""
   film["cast"] = tiffDOM.css("#cast .credit-content").text || ""
+  film["image"] = "https:" + tiffDOM.css("#work-images img:first-child").attr('src') || ""
+  film["url"] = url
   films.push(film)
 end
 
