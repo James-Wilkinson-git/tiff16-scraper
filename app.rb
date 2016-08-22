@@ -23,7 +23,7 @@ films = Array.new
 for url in urls do
   tiffDOM = Nokogiri::HTML(open(url), nil, 'utf-8')
   film = Hash.new
-  film["name"] = tiffDOM.css("body.film #wrap .container h1").text || ""
+  film["name"] = tiffDOM.css("body #wrap .container h1").text || ""
   film["director"] = tiffDOM.css("#director .credit-content").text || ""
   film["countries"] = tiffDOM.css("span.quick-info .countries").text || ""
   film["runtime"] = tiffDOM.css("span.quick-info .runtime").text || ""
@@ -39,7 +39,8 @@ for url in urls do
   film["score"] = tiffDOM.css("#originalScore .credit-content").text || ""
   film["sound"] = tiffDOM.css("#sound .credit-content").text || ""
   film["cast"] = tiffDOM.css("#cast .credit-content").text || ""
-  film["image"] = "https:" + tiffDOM.css("#work-images img:first-child").attr('src') || ""
+  imageUrl = "https:" + tiffDOM.css("#work-images img:first-child").attr('src')
+  film["image"] = imageUrl.to_str().split("?")[0] + "?w=300&q=40"
   film["url"] = url
   films.push(film)
 end
