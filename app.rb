@@ -43,6 +43,22 @@ for url in urls do
   imageUrl = "https:" + tiffDOM.css("#work-images img:first-child").attr('src')
   film["image"] = imageUrl.to_str().split("?")[0] + "?w=300&q=40"
   film["url"] = url
+  film["schedule"] = []
+  scheduleDom = tiffDOM.css("#schedule-buttons > div")
+  film["schedule"] = []
+  scheduleDom = tiffDOM.css("#schedule-buttons > div")
+  for dateDom in scheduleDom
+    dateid = dateDom.attr("id")[0...-2].to_i
+    date = Time.at(dateid).strftime('%A %B %e')
+    hash = {:date => date}
+    timeDom = tiffDOM.css("#" + dateDom.attr("id") + " a")
+    for time in timeDom
+      hash[:time] = time.css(".time").text
+      hash[:location] = time.css(".flags .location").text
+    end
+
+    film["schedule"].push(hash)
+  end
   films.push(film)
 end
 
