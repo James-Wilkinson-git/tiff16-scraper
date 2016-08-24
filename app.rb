@@ -40,21 +40,25 @@ for url in urls do
   film["score"] = tiffDOM.css("#originalScore .credit-content").text || "N/A"
   film["sound"] = tiffDOM.css("#sound .credit-content").text || "N/A"
   film["cast"] = tiffDOM.css("#cast .credit-content").text || "N/A"
-  imageUrl = "https:" + tiffDOM.css("#work-images img:first-child").attr('src')
-  film["image"] = imageUrl.to_str().split("?")[0] + "?w=300&q=40"
+  imageDom = tiffDOM.at_css("#work-images img")
+  if !imageDom.nil?
+    film["image"] = "https:" + imageDom.attr("src").to_str().split("?")[0] + "?w=300&q=40"
+  end
   film["url"] = url
   film["schedule"] = []
   scheduleDom = tiffDOM.css("#schedule-buttons > div")
-  film["schedule"] = []
-  scheduleDom = tiffDOM.css("#schedule-buttons > div")
   for dateDom in scheduleDom
-    dateid = dateDom.attr("id")[0...-2].to_i
+    dateid = dateDom.attr("id")[0...-3].to_i
     date = Time.at(dateid).strftime('%A %B %e')
-    hash = {:date => date}
+    hash = {:date => date, :shows => []}
     timeDom = tiffDOM.css("#" + dateDom.attr("id") + " a")
     for time in timeDom
-      hash[:time] = time.css(".time").text
-      hash[:location] = time.css(".flags .location").text
+      timeHash = {}
+      timeHash[:time] = time.css(".time").text
+      timeHash[:location] = time.css(".flags .location").text
+      timeHash[:press] = time.at_css("i.press-industry") ? true : false
+      timeHash[:premium] = time.at_css(".flag.premium") ? true : false
+      hash[:shows].push(timeHash)
     end
 
     film["schedule"].push(hash)
