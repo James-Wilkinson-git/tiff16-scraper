@@ -1,0 +1,98 @@
+[
+  {
+    "name": "The Man Trap",
+    "program": "Festival Street ScreenFilms, Talks, & Events",
+    "director": "Marc Daniels",
+    "countries": "USA",
+    "runtime": "50 minutes",
+    "premiere": "",
+    "year": "1966",
+    "language": "",
+    "pitch": "",
+    "production": "",
+    "producers": "",
+    "screenplay": "",
+    "cinematographers": "",
+    "editors": "",
+    "score": "",
+    "sound": "",
+    "cast": "William Shatner, Leonard Nimoy",
+    "url": "http://www.tiff.net/films/the-man-trap/",
+    "schedule": [
+
+    ]
+  },
+  {
+    "name": "X Quinientos",
+    "program": "Contemporary World Cinema",
+    "director": "Juan Andrés Arango",
+    "countries": "Canada / Colombia / Mexico",
+    "runtime": "108 minutes",
+    "premiere": "World Premiere",
+    "year": "2016",
+    "language": "Spanish English French Tagalog Mazahua",
+    "pitch": "Set in Mexico, Colombia and Canada, the second feature by Juan Andres Arango (La Playa DC) follows the stories of three unrelated migrants who each experience the death of a loved one, and must undergo both mental and physical transformations in order to deal with their grief and find a new place for themselves in the world.\n",
+    "production": "Peripheria, Septima Films, Machete",
+    "producers": "Yanick Letourneau, Jorge Botero, Edher Campos, Luis Salinas",
+    "screenplay": "Juan Andrés Arango",
+    "cinematographers": "Nicolas Canniccioni",
+    "editors": "Felipe Guerrero",
+    "score": "",
+    "sound": "René Portillo, Isabel Torres, Daniel Garcia",
+    "cast": "Jembie Almazan, Jonathan Diaz Angulo, Bernardo Garnica Cruz",
+    "image": "https://images.contentful.com/22n7d68fswlw/3FVeuRjyUoimCka2kSyWK6/e76106e25bcd61df1106874da21f1d58/xquinientos_02.jpg?w=300&q=40",
+    "url": "http://www.tiff.net/films/x-quinientos/",
+    "schedule": [
+      {
+        "date": "Saturday September 10",
+        "shows": [
+          {
+            "time": "9:30 pm",
+            "location": "TBLB3",
+            "press": false,
+            "premium": false
+          }
+        ]
+      },
+      {
+        "date": "Monday September 12",
+        "shows": [
+          {
+            "time": "10:00 am",
+            "location": "SB06",
+            "press": true,
+            "premium": false
+          }
+        ]
+      },
+      {
+        "date": "Wednesday September 14",
+        "shows": [
+          {
+            "time": "6:45 pm",
+            "location": "SB05",
+            "press": true,
+            "premium": false
+          }
+        ]
+      },
+      {
+        "date": "Saturday September 17",
+        "shows": [
+          {
+            "time": "9:15 am",
+            "location": "SB04",
+            "press": false,
+            "premium": false
+          }
+        ]
+      },
+      {
+        "date": "Wednesday December 31",
+        "shows": [
+
+        ]
+      }
+    ]
+  }
+]
