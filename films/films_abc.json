@@ -1497,7 +1497,7 @@
         "date": "Thursday September  8",
         "shows": [
           {
-            "time": "2:30 pm",
+            "time": "12:00 pm",
             "location": "SCOTIA 12",
             "press": true,
             "premium": false
@@ -2938,7 +2938,7 @@
     "language": "English",
     "pitch": "Fisher Stevens' latest documentary (formerly titled The Turning Point) chronicles Leonardo DiCaprio's campaign to raise global awareness about the dangers of climate change in his role as a UN Ambassador of Peace.\n",
     "production": "Appian Way, Insurgent Docs, RatPac Documentary Films",
-    "producers": "Trevor Davidoski, Jennifer Davisson, Leonardo DiCaprio, James Packer, Brett Ratner, Fisher Stevens",
+    "producers": "Leonardo DiCaprio, Fisher Stevens, Brett Ratner, James Packer, Jennifer Davisson, Trevor Davidoski",
     "screenplay": "Mark Monroe",
     "cinematographers": "Antonio Rossi",
     "editors": "Geoff Richman, Ben Sozanski, Brett Banks, Abhay Sofsky",
@@ -4050,23 +4050,7 @@
     "image": "https://images.contentful.com/22n7d68fswlw/M7PXMlqSqsukWIEqIq2Km/40c31a94da1bff7355d2a45ab97e3e13/BreakingOccupation_02_MUST_USE.jpg?w=300&q=40",
     "url": "http://tiff.net/films/breaking-occupation",
     "schedule": [
-      {
-        "date": "Thursday September 15",
-        "shows": [
-          {
-            "time": "9:00 pm",
-            "location": "SCOTIA 6",
-            "press": true,
-            "premium": false
-          }
-        ]
-      },
-      {
-        "date": "Wednesday December 31",
-        "shows": [
 
-        ]
-      }
     ]
   },
   {
@@ -6000,7 +5984,7 @@
     "year": "2015",
     "language": "French",
     "pitch": "Isabelle Huppert stars in the daring new film from perennial provocateur Paul Verhoeven, about a high-powered businesswoman whose brutal sexual assault elicits both erotic fantasies and dreams of revenge.\n",
-    "production": "Sony Pictures Classics",
+    "production": "SBS Productions, Sony Pictures Classics",
     "producers": "",
     "screenplay": "David Birke",
     "cinematographers": "Stéphane Fontaine",
@@ -6142,6 +6126,46 @@
     "url": "http://tiff.net/films/emma",
     "schedule": [
 
+    ]
+  },
+  {
+    "name": "Ferris Bueller's Day Off",
+    "program": "Festival Street ScreenFestival Street",
+    "director": "John Hughes",
+    "countries": "USA",
+    "runtime": "103 minutes",
+    "premiere": "",
+    "year": "1986",
+    "language": "English",
+    "pitch": "Matthew Broderick became a teen icon as the smooth-talking, class-skipping high school operator in John Hughes' comedy classic.\n",
+    "production": "",
+    "producers": "John Hughes, Michael Chinich\t, Tom Jacobson",
+    "screenplay": "John Hughes",
+    "cinematographers": "",
+    "editors": "",
+    "score": "",
+    "sound": "",
+    "cast": "Matthew Broderick, Alan Ruck, Mia Sara",
+    "image": "https://images.contentful.com/22n7d68fswlw/WKWCVv1DQ4GWeYim4YQ0c/4cbd56e8923345f833f4a3994f93478a/FEST16-no-image.jpg?w=300&q=40",
+    "url": "http://tiff.net/films/ferris-buellers-day-off",
+    "schedule": [
+      {
+        "date": "Sunday September 11",
+        "shows": [
+          {
+            "time": "9:00 pm",
+            "location": "SLAIGHT",
+            "press": false,
+            "premium": false
+          }
+        ]
+      },
+      {
+        "date": "Wednesday December 31",
+        "shows": [
+
+        ]
+      }
     ]
   },
   {
@@ -10515,7 +10539,7 @@
     "year": "2015",
     "language": "Spanish",
     "pitch": "Spanish maestro Pedro Almodóvar adapts three stories from Canadian Nobel Prize winner Alice Munro for this time-tripping tale about the relationship and eventual rupture between a Madrid teacher and her beloved daughter.\n",
-    "production": "Sony Pictures Classics",
+    "production": "El Deseo",
     "producers": "Esther García",
     "screenplay": "Pedro Almodóvar",
     "cinematographers": "Jean-Claude Larrieu",
@@ -11224,7 +11248,7 @@
   },
   {
     "name": "Labyrinth",
-    "program": "Festival Street ScreenFilms, Talks, & Events",
+    "program": "Festival Street ScreenFestival Street",
     "director": "Jim Henson",
     "countries": "USA / United Kingdom",
     "runtime": "101 minutes",
@@ -11243,7 +11267,23 @@
     "image": "https://images.contentful.com/22n7d68fswlw/WKWCVv1DQ4GWeYim4YQ0c/4cbd56e8923345f833f4a3994f93478a/FEST16-no-image.jpg?w=300&q=40",
     "url": "http://tiff.net/films/labyrinth",
     "schedule": [
+      {
+        "date": "Friday September  9",
+        "shows": [
+          {
+            "time": "9:00 pm",
+            "location": "SLAIGHT",
+            "press": false,
+            "premium": false
+          }
+        ]
+      },
+      {
+        "date": "Wednesday December 31",
+        "shows": [
 
+        ]
+      }
     ]
   },
   {
@@ -13989,14 +14029,14 @@
   {
     "name": "NORMAN: THE MODERATE RISE AND TRAGIC FALL OF A NEW YORK FIXER",
     "program": "Gala Presentations",
-    "director": "",
+    "director": "Joseph Cedar",
     "countries": "USA / Israel",
     "runtime": "117 minutes",
     "premiere": "International Premiere",
     "year": "2016",
     "language": "English",
     "pitch": "Richard Gere headlines a marvellous cast (including Michael Sheen, Charlotte Gainsbourg, Steve Buscemi, Hank Azaria and Isaach De Bankolé) in this richly detailed drama from Oscar-nominated writer-director Joseph Cedar (Footnote), about a veteran \"fixer\" in NYC’s Jewish community who gets in over his head when he sets out to impress a visiting Israeli dignitary.\n",
-    "production": "Sony Pictures Classics",
+    "production": "Tadmor, Cold Iron Pictures, Blackbird Films, Movieplus, Sony Pictures Classics",
     "producers": "Oren Moverman, Eyal Rimmon, Gideon Tadmor, Lawrence Inglee, David Mandil, Miranda Bailey",
     "screenplay": "",
     "cinematographers": "Yaron Scharf",
@@ -14123,23 +14163,7 @@
     "image": "https://images.contentful.com/22n7d68fswlw/4YsinAtTPyASiqOaKEosaY/1fa651430ad7401817588c34e07ba0ef/OffFrame_01.jpg?w=300&q=40",
     "url": "http://tiff.net/films/off-frame-aka-revolution-until-victory",
     "schedule": [
-      {
-        "date": "Thursday September 15",
-        "shows": [
-          {
-            "time": "9:00 pm",
-            "location": "SCOTIA 6",
-            "press": true,
-            "premium": false
-          }
-        ]
-      },
-      {
-        "date": "Wednesday December 31",
-        "shows": [
 
-        ]
-      }
     ]
   },
   {
@@ -14961,7 +14985,7 @@
         "date": "Thursday September  8",
         "shows": [
           {
-            "time": "9:15 am",
+            "time": "10:00 am",
             "location": "SCOTIA 2",
             "press": true,
             "premium": false
@@ -17615,7 +17639,7 @@
     "cinematographers": "Iván Hernández",
     "editors": "José Manuel Rocha, Lucía Carreras",
     "score": "Pablo Cervantes",
-    "sound": "Daniel Balboa",
+    "sound": "Daniel Balboa, Jose A. Manovel",
     "cast": "Ángeles Cruz, Angelina Peláez, Mercedes Pascual, Harold Torres, Gustavo Sánchez Parra , Cecilia Cantú",
     "image": "https://images.contentful.com/22n7d68fswlw/6mg1fLNhKwkA0CeucGG8oW/bc3e12b370dbb144961e534393ad4149/tamaraandladybug_01.jpg?w=300&q=40",
     "url": "http://tiff.net/films/tamara-and-the-ladybug",
@@ -19065,8 +19089,8 @@
     "year": "2014",
     "language": "Kazakh English",
     "pitch": "Executive producer Daisy Ridley narrates this visually stunning documentary about a young girl in western Mongolia who challenges tradition by becoming the first female to take on the sacred role of capturing and training wild mountain eagles.\n",
-    "production": "Sony Pictures Classics",
-    "producers": "Stacey Reiss, Sharon Change, Otto Bell",
+    "production": "Sony Pictures Classics, Kissiki Film, 19340 Productions",
+    "producers": "Stacey Reiss, Sharon Chang, Otto Bell",
     "screenplay": "",
     "cinematographers": "Simon Niblett",
     "editors": "Pierre Takal",
@@ -19809,7 +19833,7 @@
     "editors": "Tom Noble",
     "score": "Mark Isham",
     "sound": "J.T. Mueller, Glen Gauthier",
-    "cast": "Gerard Butler, Alison Brie, Willem Dafoe, Gretchen Mol, Alfred Molina, Kathleen Munroe, Dylan Roberts",
+    "cast": "Gerard Butler, Alison Brie, Willem Dafoe, Gretchen Mol, Alfred Molina, Kathleen Munroe, Dylan Roberts, Maxwell Jenkins",
     "image": "https://images.contentful.com/22n7d68fswlw/1VuCq48X4IsksassM4g08s/7b78449997485220827516c2b208fd1a/headhunterscalling_01.jpg?w=300&q=40",
     "url": "http://tiff.net/films/the-headhunters-calling",
     "schedule": [
@@ -20560,14 +20584,14 @@
   },
   {
     "name": "The Man Trap",
-    "program": "Festival Street ScreenFilms, Talks, & Events",
+    "program": "Festival Street ScreenFestival Street",
     "director": "Marc Daniels",
     "countries": "USA",
     "runtime": "50 minutes",
     "premiere": "",
     "year": "1966",
     "language": "",
-    "pitch": "",
+    "pitch": "Dr. McCoy discovers his old flame is not what she seems after crew members begin dying from a sudden lack of salt in their bodies.\n",
     "production": "",
     "producers": "",
     "screenplay": "",
@@ -20576,9 +20600,26 @@
     "score": "",
     "sound": "",
     "cast": "William Shatner, Leonard Nimoy",
+    "image": "https://images.contentful.com/22n7d68fswlw/5AHwHN5QcweK06i44MaA8u/8e80db483e9b3b2f0a6da6028ac4bcb5/themantrap134.jpg?w=300&q=40",
     "url": "http://tiff.net/films/the-man-trap",
     "schedule": [
+      {
+        "date": "Thursday September  8",
+        "shows": [
+          {
+            "time": "9:00 pm",
+            "location": "SLAIGHT",
+            "press": false,
+            "premium": false
+          }
+        ]
+      },
+      {
+        "date": "Wednesday December 31",
+        "shows": [
 
+        ]
+      }
     ]
   },
   {
@@ -20993,9 +21034,9 @@
     "year": "2015",
     "language": "No language",
     "pitch": "The first international co-production from renowned Japanese animation giant Studio Ghibli enlists the talents of Oscar-winning Dutch animator Michaël Dudok De Wit for a wondrous story about the unlikely friendship between a castaway on a deserted island and an enormous sea turtle.\n",
-    "production": "Studio Ghibli",
+    "production": "Studio Ghibli, Why Not Productions",
     "producers": "",
-    "screenplay": "Michael Dudok de Wit, Pascale Herran",
+    "screenplay": "Michael Dudok de Wit, Pascale Ferran",
     "cinematographers": "",
     "editors": "Céline Kélépikis",
     "score": "Laurent Perez Del Mar",
@@ -21815,6 +21856,17 @@
     "url": "http://tiff.net/films/the-terry-kath-experience",
     "schedule": [
       {
+        "date": "Tuesday September 13",
+        "shows": [
+          {
+            "time": "1:30 pm",
+            "location": "SCOTIA 11",
+            "press": true,
+            "premium": false
+          }
+        ]
+      },
+      {
         "date": "Thursday September 15",
         "shows": [
           {
@@ -21985,8 +22037,8 @@
     "language": "Arabic",
     "pitch": "A Syrian radio DJ documents the experiences of herself and her friends as their dreams of hope and liberation in the wake of the 2011 Arab Spring give way to the grim realities of repression, forced emigration and extremism.\n",
     "production": "Fridthjof Film, Dharmafilm, Oktober Oy",
-    "producers": "Miriam Nørgaard, Alaa Hassan",
-    "screenplay": "Andreas Dalsgaard, Obaidah Zytoon",
+    "producers": "Miriam Nørgaard",
+    "screenplay": "Andreas Dalsgaard, Obaidah Zytoon, Spencer Osberg, Alaa Hassan",
     "cinematographers": "Obaidah Zytoon, Amr Kheito, Hisham Issa, Wasim Anonymous",
     "editors": "Adam Nielsen",
     "score": "Colin Stetson",
@@ -23112,10 +23164,10 @@
     "url": "http://tiff.net/films/two-lovers-and-a-bear",
     "schedule": [
       {
-        "date": "Thursday September  8",
+        "date": "Friday September  9",
         "shows": [
           {
-            "time": "12:00 pm",
+            "time": "12:30 pm",
             "location": "SCOTIA 12",
             "press": true,
             "premium": false
